@@ -50,3 +50,48 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# .NET / C#
+bin/
+obj/
+[Ll]og/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider and VS Code settings
+.idea/
+.vscode/
+
+# ASP.NET-specific
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+*.nuspec
+
+# Azure Functions local settings
+local.settings.json
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Coverlet code coverage
+coverage*.json
+coverage*.xml
+coverage*.info
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragejson
